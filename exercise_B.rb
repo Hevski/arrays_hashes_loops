@@ -77,7 +77,8 @@ p users["Erik"][:pets] << {
   species: "dog"
 }
 # Add another person to the users hash
-p users ["Heather"] = {
+users ["Heather"] = {
   hometown: "Kirkintilloch",
   age: 34
 }
+p users
